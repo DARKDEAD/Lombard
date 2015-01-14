@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2654551699">
+    <data-source source="LOCAL" name="lombard1" uuid="c1f0b3db-66a7-48c3-890c-205c9b26c8c6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\dead\PycharmProjects\PyQt\lombard1.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
