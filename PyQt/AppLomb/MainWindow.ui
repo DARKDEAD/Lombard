@@ -28,10 +28,11 @@
      <string>Файл</string>
     </property>
    </widget>
-   <widget class="QMenu" name="menu_2">
+   <widget class="QMenu" name="sprav">
     <property name="title">
      <string>Справочники</string>
     </property>
+    <addaction name="sprKlients"/>
    </widget>
    <widget class="QMenu" name="menu_3">
     <property name="title">
@@ -39,10 +40,26 @@
     </property>
    </widget>
    <addaction name="menu"/>
-   <addaction name="menu_2"/>
+   <addaction name="sprav"/>
    <addaction name="menu_3"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="sprKlients">
+   <property name="text">
+    <string>Клиенты</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

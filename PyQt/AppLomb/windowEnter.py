@@ -3,6 +3,7 @@ __author__ = 'dead'
 #!/usr/bin/env python
 import sys,sqlite3
 from PyQt4 import QtCore, QtGui, uic
+from windowMain import startMainWindow
 
 # """заполнение списка пользователей, пароль хранится в роле"""
 # def AddListUser():
@@ -30,9 +31,10 @@ def InputUser():
     if currentPassw == window.InputPassw.text():
 
         #window
-        print("/INPUT")
+        # print("/INPUT")
         QtGui.QWidget.close(window)
-        QtGui.QWidget.show(MainWindow)
+        startMainWindow(MainWindow)
+        #QtGui.QWidget.show(MainWindow)
         #QtGui.qApp.quit
 
         #QtGui.QWidget.close
@@ -41,15 +43,16 @@ def InputUser():
         QtGui.QMessageBox.critical(window, "Ошибка", "Проверьте правильность ввода Пароля", QtGui.QMessageBox.Close)
         window.InputPassw.setText("")
 
-class startApp():
-    global window,MainWindow
+def showWndSprKlients():
+   wndSprKlients.setParent(MainWindow)
+   #MainWindow.setParent(wndSprKlients)
+   QtGui.QWidget.show(wndSprKlients)
 
-    app = QtGui.QApplication(sys.argv)
-    window = uic.loadUi("MyForm.ui")
-    MainWindow = uic.loadUi("MainWindow.ui")
+   #wndSprKlients.setWindowState(QtCore.Qt.WindowMaximized)
 
-    initBD()
+def initialWindows():
 
+    #Входное окно, где пароль
     QtCore.QObject.connect(window.btnQuit, QtCore.SIGNAL("clicked()"), QtGui.qApp.quit) # нажатие кнопки ОТМЕНА
     QtCore.QObject.connect(window.btnOK, QtCore.SIGNAL("clicked()"), InputUser) #Нажата Кннопка ВХОД
 
@@ -58,6 +61,24 @@ class startApp():
                        QtCore.Qt.WindowTitleHint |
                        QtCore.Qt.WindowCloseButtonHint |
                        QtCore.Qt.MSWindowsFixedSizeDialogHint)
+
+    #окно СПРАВОЧНИК КЛИНТЫ
+    #QtGui.QWidget.parent()
+
+    QtCore.QObject.connect(MainWindow.sprKlients, QtCore.SIGNAL("triggered()"), showWndSprKlients)
+
+
+class startApp():
+    global window,MainWindow,wndSprKlients
+
+    app = QtGui.QApplication(sys.argv)
+
+    window = uic.loadUi("MyForm.ui")
+    MainWindow = uic.loadUi("MainWindow.ui")
+    wndSprKlients = uic.loadUi("WindowSprKlients.ui")
+
+    initialWindows()
+    initBD()
 
     window.show()
     app.exec()  # запускает приложение
