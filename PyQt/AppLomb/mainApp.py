@@ -9,6 +9,8 @@ from windowEnter import startApp
 
 if __name__ == "__main__":
     import sys
+    app = QtGui.QApplication(sys.argv)
     startApp()
+    sys.exit(app.exec_())
 
 

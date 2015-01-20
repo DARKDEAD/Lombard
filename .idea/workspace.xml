@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9aea4d-8fe8-4e45-a304-e282de42b7df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQt/AppLomb/windowMain.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyQt/AppLomb/MainWindow.ui" afterPath="$PROJECT_DIR$/PyQt/AppLomb/MainWindow.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyQt/AppLomb/mainApp.py" afterPath="$PROJECT_DIR$/PyQt/AppLomb/mainApp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py" afterPath="$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,7 +19,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Lombard$mainApp.coverage" NAME="mainApp Coverage Results" MODIFIED="1421353770799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/AppLomb" />
+    <SUITE FILE_PATH="coverage/Lombard$mainApp.coverage" NAME="mainApp Coverage Results" MODIFIED="1421788726757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/AppLomb" />
+    <SUITE FILE_PATH="coverage/Lombard$windowEnter.coverage" NAME="windowEnter Coverage Results" MODIFIED="1421789707758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/AppLomb" />
     <SUITE FILE_PATH="coverage/Lombard$2.coverage" NAME="2 Coverage Results" MODIFIED="1421171771217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -38,7 +38,7 @@
       <file leaf-file-name="2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="952">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
               <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding>
                 <element signature="e#85#121#0" expanded="true" />
@@ -48,11 +48,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyQt/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mainApp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/mainApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="13" column="25" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#100#118#0" expanded="true" />
               </folding>
@@ -60,15 +70,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windowEnter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windowEnter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8736111" vertical-offset="680" max-vertical-offset="1581">
-              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1132" max-vertical-offset="1734">
+              <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
-                <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+                <element signature="e#514#1111#0" expanded="false" />
+                <element signature="e#1161#1730#0" expanded="false" />
+                <element signature="e#1759#2459#0" expanded="false" />
+                <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5432331" vertical-offset="0" max-vertical-offset="532">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loader.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python34/Lib/site-packages/PyQt4/uic/Loader/loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1241">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +109,7 @@
       <file leaf-file-name="windowMain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="56" />
               <folding />
             </state>
@@ -86,7 +119,7 @@
       <file leaf-file-name="appSprKlients.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -107,15 +140,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PyQt/AppLomb/AboutUs.py" />
-        <option value="$PROJECT_DIR$/PyQt/AppLomb/mainApp.py" />
         <option value="$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py" />
         <option value="$PROJECT_DIR$/PyQt/AppLomb/windowMain.py" />
+        <option value="$PROJECT_DIR$/PyQt/AppLomb/mainApp.py" />
         <option value="$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
@@ -149,7 +189,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +231,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +245,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -219,7 +260,7 @@
       <recent name="C:\Users\dead\PycharmProjects\Lombard\PyQt\AppLomb" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainApp">
+  <component name="RunManager" selected="Python.windowEnter">
     <configuration default="false" name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +297,29 @@
       <module name="Lombard" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/AppLomb/mainApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="windowEnter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <log_file path="C:/" checked="true" skipped="true" show_all="false" alias="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/AppLomb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lombard" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -452,14 +516,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.2" />
       <item index="1" class="java.lang.String" itemvalue="Python.mainApp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.windowEnter" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.mainApp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.windowEnter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mainApp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +564,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1932" height="1052" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -508,9 +574,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1952535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14376996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14536741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,6 +584,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -564,27 +630,83 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/PyQt/AppLomb/mainApp.py</url>
           <line>11</line>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="28" />
+          <line>98</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="MainWindow" />
-        <watch expression="wndSprKlients" />
         <watch expression="window.sprKlients" />
+        <watch expression="window.setWindowFlags(QtCore.Qt.Window |&#10;                       QtCore.Qt.CustomizeWindowHint |&#10;                       QtCore.Qt.WindowTitleHint |&#10;                       QtCore.Qt.WindowCloseButtonHint |&#10;                       QtCore.Qt.MSWindowsFixedSizeDialogHint)" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PyQt/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="952">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="e#85#121#0" expanded="true" />
+            <marker date="1411468913894" expanded="true" signature="953:971" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/mainApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#100#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="952">
@@ -612,7 +734,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -621,10 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,7 +776,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -664,10 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,7 +818,10 @@
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -707,10 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +860,10 @@
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -750,10 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,7 +902,10 @@
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -793,10 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +944,10 @@
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -836,10 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,10 +970,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#20#38#0" expanded="false" />
-            <marker date="1421176646291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,11 +1000,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/appSprKlients.py">
+    <entry file="file://$PROJECT_DIR$/PyQt/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/PyQt4/uic/Loader/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1241">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/mainApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="13" column="25" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#100#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/PyQt4/uic/uiparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="13513" max-vertical-offset="17170">
+          <caret line="812" column="0" selection-start-line="812" selection-start-column="0" selection-end-line="812" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1132" max-vertical-offset="1734">
+          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+            <element signature="e#514#1111#0" expanded="false" />
+            <element signature="e#1161#1730#0" expanded="false" />
+            <element signature="e#1759#2459#0" expanded="false" />
+            <marker date="1421789557649" expanded="true" signature="3913:3931" placeholder="SELECT * FRO..user..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,35 +1053,6 @@
         <state vertical-scroll-proportion="0.5432331" vertical-offset="0" max-vertical-offset="532">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/mainApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/AppLomb/windowEnter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8736111" vertical-offset="680" max-vertical-offset="1581">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="e#43#61#0" expanded="true" />
-            <marker date="1421353791192" expanded="true" signature="444:462" placeholder="SELECT * FRO..user..." />
-          </folding>
         </state>
       </provider>
     </entry>
